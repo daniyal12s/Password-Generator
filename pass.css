@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #222;
+}
+
+.container {
+    
+    height: 100vh;  
+    display: flex;
+    text-align: center;
+    
+}
+
+.main{
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid red;
+    padding: 50px 10px 50px 10px;
+    background:linear-gradient(180deg,cyan,limegreen)
+}
+
+p {
+    
+    text-decoration: underline;
+    font-weight: 700;
+    background-color: yellow;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    color: red;
+
+
+}
+
+input {
+    margin-right: 5px;
+    font-size: 12px;
+    padding: 3px;
+    font-weight: 700;
+    font-style: italic ;
+}
+
+button {
+    color: yellow;
+    background-color: black;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 4px;
+}
+
+button:hover {
+    border: 3px solid white;
+    border-radius: 20px;
+}
